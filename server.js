@@ -24,7 +24,11 @@ app.use(apiRoutes);
 // Create db connection
 
 // mongoose.connect("mongodb+srv://root:WbphzWf8hQ4a4an1@cluster0.9uw5z.mongodb.net/workout?retryWrites=true&w=majority", { useNewUrlParser: true }).
-mongoose.connect("mongodb://localhost/workout?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true }).
+mongoose.connect("mongodb://localhost/workout?retryWrites=true&w=majority", {
+	useNewUrlParser: true,
+	useFindAndModify: false,
+	useUnifiedTopology: true
+}).
 // then(conn => console.log(conn.connections[0])).
 catch(err => console.log(err));
 // mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://root:WbphzWf8hQ4a4an1@cluster0.9uw5z.mongodb.net/workout?retryWrites=true&w=majority", { useNewUrlParser: true });
@@ -32,4 +36,4 @@ catch(err => console.log(err));
 // Start the server
 app.listen(PORT, () => {
 	console.log(`App running on port ${PORT}!`);
-  });
+});
