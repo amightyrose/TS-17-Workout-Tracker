@@ -24,7 +24,6 @@ app.use(apiRoutes);
 
 // Create db connection
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout?retryWrites=true&w=majority", {
-// mongoose.connect("mongodb+srv://root:WbphzWf8hQ4a4an1@cluster0.9uw5z.mongodb.net/workout?retryWrites=true&w=majority", {
 	useNewUrlParser: true,
 	useFindAndModify: false,
 	useUnifiedTopology: true
