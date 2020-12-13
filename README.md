@@ -1,4 +1,4 @@
-# Workout-Tracker
+# Workout Tracker
 
 A node/mongodb application for keeping track of your exercise sessions and viewing cumulative statistics.
 
