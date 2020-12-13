@@ -36,7 +36,7 @@ To install Workout Tracker:
 ### Instructions
 1. Open a terminal window and navigate to the application directory.
 2. Run `npm start` and press Enter to continue.
-3. Open a web browser and navigate to "https://localhost:3000.
+3. Open a web browser and navigate to https://localhost:3000.
 4. Start entering your workout information.
 
 
