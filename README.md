@@ -60,8 +60,6 @@ Questions? Comments? Suggestions? Please get in touch.
 
 GitHub: https://github.com/timsilby
 
-Email: [tim.silby@gmail.com](mailto:tim.silby@gmail.com)
-
 
 ## License
 This project is licensed under the MIT License.
